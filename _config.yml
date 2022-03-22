@@ -1,5 +1,5 @@
 title: Minimalist theme
-remote_theme : BDHU/minimalist
+remote_theme : donghuna/jekyll
 logo: /assets/img/logo.png
 email: bogus at gmail dot com
 description: Minimalist is a theme powered by Jekyll. It is modified based on the Minimal theme.
