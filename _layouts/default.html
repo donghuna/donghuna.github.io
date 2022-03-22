@@ -24,7 +24,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="sidebar" width=100pt>
+      <div class="sidebar" width=200>
         <header>
           {% if site.logo %}
             <img class="img-circle" src="{{site.logo | relative_url}}" alt="Logo">
@@ -37,7 +37,7 @@
           {% endif %}
 
           {% if site.email %}
-            <p class="addr"><i class="fa-regular fa-envelope"></i>&nbsp;{{ site.email }}</p>
+            <p class="addr"><i class="fa-regular fa-envelope"></i>&nbsp;<small>{{ site.email }}</small></p>
           {% endif %}
 
           <p>{{ site.description | default: site.github.project_tagline }}</p>
