@@ -37,6 +37,10 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
+```python
+import numpy
+```
+
 #### Header 4
 
 *   This is an unordered list following a header.
