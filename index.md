@@ -8,6 +8,10 @@ layout: default
 
 ---
 
+한글을 쓴다면 어떨까
+
+가나다라마바사
+
 [Solo](http://chibicode.github.io/solo) is a Jekyll theme that supports **single-page websites** only, but supports them well. Yes, it's responsive.
 
 <iframe src="https://ghbtns.com/github-btn.html?user=chibicode&amp;repo=solo&amp;type=watch&amp;count=true&amp;size=large"
