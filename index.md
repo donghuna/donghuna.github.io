@@ -4,7 +4,7 @@ layout: default
 
 ## Deprecated: Use my new theme "Duo" instead:
 
-[https://chibicode.github.io/duo/](https://chibicode.github.io/duo/)
+[https://donghuna.github.io/duo/](https://donghuna.github.io/duo/)
 
 ---
 
