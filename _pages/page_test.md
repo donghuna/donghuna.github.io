@@ -10,8 +10,4 @@ image: '/images/pages/styleguide.jpg'
       {% include post-card.liquid %}
     {% endfor %}
   </div>
-
-  <div class='o-grid'>
-    {% include pagination.html %}
-  </div>
 </div>
