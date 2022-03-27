@@ -1,24 +1,39 @@
-{% include header.html %}
-<!-- 2 - content of post -->
-<main>
-    <section class="row ">
-        <article class="small-12 large-8 large-offset-2 columns margin-bottom-2" >
-            <div class="post-content callout">
-                {{ content }}
-                <p>
-                    {% for category in page.categories %}
-                        <a class="hollow button secondary" href="{{site.url}}/categories/#{{category|slugize}}">
-                            #{{category}}</a>
-                        {% unless forloop.last %}&nbsp;{% endunless %}
-                    {% endfor %}
-                </p>
-            </div>
-            <div class="row share-content">
-                {% include share.html %}
-            </div>
-        </article>
-    </section>
-</main>
-<!-- 3 - includes disqus and footer -->
-{% include disqus.html %}
-{% include footer.html %}
+---
+layout: default
+---
+
+{% include base_path %}
+
+{% if page.image %}
+  <meta itemprop='og:image' content='{{ base_path }}{{ page.image }}'>
+{% endif %}
+
+<div class='o-wrapper'>
+  <div class='o-grid'>
+    <div class='o-grid__col'>
+      <article class='c-post' itemscope itemtype='http://schema.org/BlogPosting'>
+
+        <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
+
+        <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: '%d %b %Y' }}</time>
+
+        <div class='c-content' itemprop='articleBody'>
+          {% include page-image.html %}
+
+          {{ content }}
+        </div>
+
+        <div class='c-tags'>
+          {% for tag in page.tags %}
+            <a href='{{ site.baseurl }}/tag/{{ tag }}'>{{ tag }}</a>
+          {% endfor %}
+        </div>
+
+        <hr>
+
+        {% include disqus.html %}
+
+      </article>
+    </div>
+  </div>
+</div>
