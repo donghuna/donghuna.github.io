@@ -1,8 +1,10 @@
 ---
 layout: post
 title: The reason we're gathered here on our God-given, much-naeeded day
-tags: [frontpage, jekyll, blog]
+tags: [frontpage, jekyll, blog, xxx]
 image: '/images/posts/8.jpg'
+# image: ''
+categories: [ jekyll ]
 ---
 
 I can remember about 4 years ago, I started to make HTML templates for ThemeForest. Unfortunately, I failed to pass the quality stage and I was not getting enough feedback from them. I was getting a general sentence saying that my item is not ready yet and the design quality is not unique enough.
