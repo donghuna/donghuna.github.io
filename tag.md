@@ -2,5 +2,5 @@
 # layout: tags
 layout: tag_page
 title: Tags
-permalink: /tags/
+permalink: /tagsdd/
 ---
