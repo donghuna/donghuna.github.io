@@ -25,8 +25,8 @@ layout: default
 
         <div class='c-tags'>
           {% for tag in page.tags %}
-            <a href='{{ site.baseurl }}/tag/{{ tag }}'>{{ tag }}</a>
-            <!--<a href='{{ tag_page.url | prepend: site.baseurl }}'>{{ tag }}</a>-->
+            <!--<a href='{{ site.baseurl }}/tags/{{ tag }}'>{{ tag }}</a>-->
+            <a href='{{ site.baseurl }}/tags/?tag={{ tag }}'>{{ tag }}</a>
           {% endfor %}
         </div>
 
