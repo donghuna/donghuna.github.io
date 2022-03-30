@@ -1,5 +1,6 @@
 ---
 # layout: tags
 layout: tag_page
-title: "Tags"
+title: Tags
+permalink: /tags/
 ---
