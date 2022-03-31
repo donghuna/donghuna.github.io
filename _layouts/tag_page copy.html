@@ -1,0 +1,113 @@
+---
+layout: default
+---
+<!--
+<div class='o-wrapper'>
+
+  <div class='o-grid'>
+    <div class='o-grid__col'>
+      <h4>{{ page.tag }}</h4>
+    </div>
+  </div>
+
+  <div class='o-grid'>
+    {% for post in page.posts %}
+      {% include post-card.liquid %}
+    {% endfor %}
+  </div>
+
+  <div class='o-grid'>
+    {% include pagination.html %}
+  </div>
+
+</div>
+-->
+
+
+<!--
+<ul class="tag-cloud">
+  {% for tag in site.tags %}
+  
+      
+      {% capture tag_name %}{{tag|first|slugize}}{% endcapture %}
+      
+      {% capture font_size %}{{tag|last|size| times:100 | divided_by:site.tags.size | plus: 50 }}%{% endcapture %}
+      
+      {% capture tag_size %}{{tag|last|size}}{% endcapture %}
+  
+      <li style="font-size:{{font_size}}">
+          <a href="#{{tag_name}}" onclick="showTag('#{{tag_name}}')">
+              {{tag_name}} ({{tag_size}})
+          </a>
+      </li>
+  
+  {% endfor %}
+  </ul>
+-->
+
+
+
+
+  <div id="archives">
+  {% for tag in site.tags %}
+    {% capture tag_name %}{{tag|first|slugize}}{% endcapture %}
+      <div class="archive-group" style="display:none" id="{{tag_name}}">
+        <div class='o-wrapper'>
+
+          <div class='o-grid'>
+            <div class='o-grid__col'>
+              <h4>{{ tag_name }}</h4>
+            </div>
+          </div>
+        
+          <div class='o-grid'>
+            {% for tag in site.tags %}
+              {{ tag.name[0] }}
+              {% if tag_name == tag[0] %}
+                {% for post in tag[1] %}
+                  {% include post-card.liquid %}
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        
+          <div class='o-grid'>
+            {% include pagination.html %}
+          </div>
+        
+        </div>
+      </div>
+  {% endfor %}
+  </div>
+  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>
+      $(document).ready(function init(){
+          var url = window.location.href;
+          var req = /#([^\s]+)$/.exec(url);
+  
+          if(!Array.isArray(req)) {
+              return false;
+          }
+          var selector = '#' + req.pop();
+          showTag(selector);
+      });
+  
+      function showTag(selector) {
+          $('.archive-group').hide();
+          $(selector).show();
+      }
+  </script>
+
+  <!--
+{% for tag in site.tags %}
+<h2>{{ tag[0]}} </h2>
+<ul>
+    {% for post in tag[1] %}
+    <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+{% endfor %}
+-->

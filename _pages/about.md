@@ -1,13 +1,27 @@
 ---
 layout: page
-title: About
-title2: dddd
+title: About me
 image: '/images/pages/about.jpeg'
-tag : xxx
 ---
 
-You love Minimalism, and you also love writing, Type is designed for you. Type focus on showing your content in a clean and simple way, focus on images, typography, and white space..
+---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+###### <center>Korea University of Technology and Education - Computer Science (2005 - 2013)</center>
+###### <center>Samsung Software Membership (2012 - 2013)</center>
 
-Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.
+###### <center>Samsung Electronics Visual Display (2013 - 2017)</center>
+###### <center>Samsung Advanced Institute of Technology (2017 - 2020)</center>
+###### <center>Samsung Electronics Inovation Center (2020 - 2021)</center>
+
+---
+
+
+###### <center>Skill competition (Daejeon) - Information technology - Silver medal (2004) </center>
+###### <center>Skill competition (Korea) - Information technology - Bronze medal (2004)</center>
+###### <center>Fingerprint recognition algorithm (2017 - 2019)</center>
+###### <center>Deep learning based - Face recognition (2019 - 2020)</center>
+###### <center>Software Engineering (2020 - 2021)</center>
+###### <center>Samsung Software Certification - Professional</center>
+###### <center>Associate architect</center>
+###### <center>Best code reviewer</center>
+

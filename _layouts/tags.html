@@ -11,9 +11,14 @@ layout: default
   </div>
 
   <div class='o-grid'>
-    {% for post in page.posts %}
-      {% include post-card.liquid %}
+    {% for tag in site.tags %}
+      {% if tag[0] == page.tag %}
+        {% for post in tag[1] %}
+          {% include post-card.liquid %}
+        {% endfor %}
+      {% endif %}
     {% endfor %}
+    
   </div>
 
   <div class='o-grid'>
