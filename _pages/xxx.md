@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: test
+# title: test
 # image: '/images/pages/styleguide.jpg'
 tag: xxx
 category : xxx
