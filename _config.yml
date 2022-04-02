@@ -16,11 +16,13 @@ url:         'https://donghuna.github.io/'
 twitter:     ''
 github:      'https://github.com/donghuna/'
 instagram:   'https://www.instagram.com/donghuna/'
-facebook:    ''
-youtube:     'https://www.youtube.com/channel/UCmjKIkCbkgGNok-amqW_m8Q'
+facebook:    'https://www.facebook.com/donghuna/'
+youtube:     'https://www.youtube.com/channel/UCmjKIkCbkgGNok-amqW_m8Q/'
+linkedin:    'https://www.linkedin.com/in/donghuna/'
+kakaotalk:   'https://open.kakao.com/o/snhM238d/'
+profilelink: 'about.html'
 
 markdown:  kramdown
-
 
 
 # permalink: /:title
