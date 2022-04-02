@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-image: '/images/pages/about.jpeg'
+image: '/images/pages/keyboard.jpg'
 ---
 
 ---
@@ -19,6 +19,7 @@ image: '/images/pages/about.jpeg'
 ###### <center>Daejeon Local Skills Competition - Silver medal (2004) </center>
 ###### <center>The 39th National Skills Competition - Bronze medal (2004)</center>
 ###### <center>ACM-ICPC #88 (2009)</center>
+###### <center>Audio product Front Micom & SCM (2013 - 2017)</center>
 ###### <center>Fingerprint Recognition Algorithm (2017 - 2020)</center>
 ###### <center>Face Recognition Deep Learning (2020 - 2021)</center>
 ###### <center>Software Engineering (2021 - Current)</center>
