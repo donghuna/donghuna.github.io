@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-image: '/images/pages/keyboard.jpg'
+image: '/images/pages/donghuna_profile.jpg'
 ---
 
 ---
