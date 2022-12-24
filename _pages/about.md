@@ -33,17 +33,16 @@ image: '/images/pages/donghuna_profile.jpeg'
 <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
 <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
 
-<div>
-    <div class="calendar1">
-    </div>
+<div class="calendar1">
 </div>
+
 
 <script>
     GitHubCalendar(".calendar1", "donghuna", { responsive: true, tooltips: false, global_stats: false}).then(function() {
         // delete the space underneath the module bar which is caused by minheight 
         document.getElementsByClassName('calendar1')[0].style.minHeight = "100px";
         // hide more and less legen below the contribution graph
-        document.getElementsByClassName('contrib-legend')[0].style.display = "none";
+        //document.getElementsByClassName('contrib-legend')[0].style.display = "none";
     });
 </script>
 
