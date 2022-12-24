@@ -1,4 +1,4 @@
-q---
+---
 layout: page
 title: About me
 image: '/images/pages/donghuna_profile.jpeg'
@@ -48,7 +48,7 @@ image: '/images/pages/donghuna_profile.jpeg'
 </div>
 
 <script>
-    GitHubCalendar(".calendar", "donghuna.lee", { responsive: true, tooltips: false, global_stats: false}).then(function() {
+    GitHubCalendar(".calendar", "donghuna", { responsive: true, tooltips: false, global_stats: false}).then(function() {
         // delete the space underneath the module bar which is caused by minheight 
         document.getElementsByClassName('calendar')[0].style.minHeight = "100px";
         // hide more and less legen below the contribution graph
