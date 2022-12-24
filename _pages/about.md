@@ -33,6 +33,9 @@ image: '/images/pages/donghuna_profile.jpeg'
 <link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css" />
 
 <!-- Prepare a container for your calendar. -->
+<div class="calendar">
+</div>
+
 <script>
     new GitHubCalendar(".calendar", "donghuna");
 </script>
