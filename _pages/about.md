@@ -38,13 +38,7 @@ image: '/images/pages/donghuna_profile.jpeg'
 
 
 <script>
-    GitHubCalendar(".calendar1", "donghuna", { responsive: true, tooltips: true, global_stats: true, summary_text: "aa"}).then(function() {
-        // delete the space underneath the module bar which is caused by minheight 
-        //document.getElementsByClassName('calendar1')[0].style.minHeight = "100px";
-        // hide more and less legen below the contribution graph
-        //document.getElementsByClassName('contrib-legend')[0].style.display = "none";
-        document.getElementsByClassName('contrib-footer')[0].style.display = "none";
-    });
+    GitHubCalendar(".calendar1", "donghuna", { responsive: true, tooltips: true, global_stats: false, summary_text: "aa"});
 </script>
 
 
