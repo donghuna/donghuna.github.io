@@ -27,7 +27,6 @@ image: '/images/pages/donghuna_profile.jpeg'
 ###### <center>Associate Architect</center>
 ###### <center>Best Code Reviewer</center>
 
-
 <!-- Include the library. -->
 <script
   src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
