@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\images",
+    "\\images\\pages",
+    "\\_pages"
   ],
-  "SelectedNode": "\\C:\\Users\\donghuna\\Source\\Repos\\donghuna.github.io",
+  "SelectedNode": "\\images\\pages\\donghuna_profile.jpeg",
   "PreviewInSolutionExplorer": false
 }

@@ -1,4 +1,4 @@
----
+q---
 layout: page
 title: About me
 image: '/images/pages/donghuna_profile.jpeg'
@@ -27,3 +27,32 @@ image: '/images/pages/donghuna_profile.jpeg'
 ###### <center>Associate Architect</center>
 ###### <center>Best Code Reviewer</center>
 
+
+<!-- Include the library. -->
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link
+   rel="stylesheet"
+   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
+
+<div>
+    <!-- Prepare a container for your calendar. -->
+    <div style="text-align: center;"><strong>나의 GitHub Contribution 그래프</strong></div> 
+    <div class="calendar">
+        <!-- Loading stuff -->
+        Loading data ...
+    </div>
+</div>
+
+<script>
+    GitHubCalendar(".calendar", "donghuna.lee", { responsive: true, tooltips: false, global_stats: false}).then(function() {
+        // delete the space underneath the module bar which is caused by minheight 
+        document.getElementsByClassName('calendar')[0].style.minHeight = "100px";
+        // hide more and less legen below the contribution graph
+        document.getElementsByClassName('contrib-legend')[0].style.display = "none";
+    });
+</script>
