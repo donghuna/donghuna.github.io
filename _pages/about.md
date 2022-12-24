@@ -27,6 +27,9 @@ image: '/images/pages/donghuna_profile.jpeg'
 ###### <center>Associate Architect</center>
 ###### <center>Best Code Reviewer</center>
 
+
+<img src="https://ghchart.rshah.org/donghuna">
+
 <!-- Include the library. -->
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 
