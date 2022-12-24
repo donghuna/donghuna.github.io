@@ -1,14 +1,10 @@
 ---
 layout: page
-title: About me
+#title: About me
 #image: '/images/pages/donghuna_profile.jpeg'
 ---
 <img src="https://github.com/donghuna.png" align="center" height="200" width="200" style="display: block; margin: 0 auto;border-radius:50%">  
-<br>
-
 <img src="https://ghchart.rshah.org/donghuna" align="center">
-
-
 
 ---
 
