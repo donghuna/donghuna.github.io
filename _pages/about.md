@@ -34,18 +34,20 @@ image: '/images/pages/donghuna_profile.jpeg'
 <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
 
 <div>
-    <div class="calendar">
+    <div class="calendar1">
     </div>
 </div>
 
 <script>
-    GitHubCalendar(".calendar", "donghuna", { responsive: true, tooltips: false, global_stats: false}).then(function() {
+    GitHubCalendar(".calendar1", "donghuna", { responsive: true, tooltips: false, global_stats: false}).then(function() {
         // delete the space underneath the module bar which is caused by minheight 
         document.getElementsByClassName('calendar')[0].style.minHeight = "100px";
         // hide more and less legen below the contribution graph
         document.getElementsByClassName('contrib-legend')[0].style.display = "none";
     });
 </script>
+
+<br><br><br>
 
 <!-- Prepare a container for your calendar. -->
 <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
