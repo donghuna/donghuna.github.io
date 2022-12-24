@@ -3,6 +3,7 @@ layout: page
 title: About me
 image: '/images/pages/donghuna_profile.jpeg'
 ---
+<img src="https://ghchart.rshah.org/donghuna" align="center">
 
 ---
 
@@ -28,35 +29,4 @@ image: '/images/pages/donghuna_profile.jpeg'
 ###### <center>Best Code Reviewer</center>
 
 
-<img src="https://ghchart.rshah.org/donghuna">
 
-<!-- Include the library. -->
-<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-
-<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
-
-<div class="calendar1">
-</div>
-
-
-<script>
-    GitHubCalendar(".calendar1", "donghuna", { responsive: true, tooltips: true, global_stats: false, summary_text: "aa"});
-</script>
-
-
-
-<br><br><br>
-
-<!-- Prepare a container for your calendar. -->
-<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
-<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-<link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css" />
-
-<!-- Prepare a container for your calendar. -->
-<div class="calendar">
-</div>
-
-<script>
-    new GitHubCalendar(".calendar", "donghuna");
-</script>
