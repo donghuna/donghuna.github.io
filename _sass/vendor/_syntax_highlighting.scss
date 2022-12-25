@@ -9,7 +9,8 @@
   margin-bottom: $base-spacing-unit;
 
   .highlighter-rouge & {
-    background: #FAFAFA;
+    //background: #FAFAFA;
+    background: $bg-color-dark;
     //background: #757575;
   }
 
