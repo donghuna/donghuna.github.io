@@ -181,14 +181,6 @@ from google.colab import files
 uploaded = files.upload()
 ```
 
-<pre>
-<IPython.core.display.HTML object>
-</pre>
-<pre>
-Saving train.csv to train.csv
-Saving gender_submission.csv to gender_submission.csv
-Saving test.csv to test.csv
-</pre>
 
 ```python
 import io
