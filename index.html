@@ -4,18 +4,27 @@ layout: default
 
 
 <div class='o-wrapper'>
-  <div class='o-grid'>
-    {% for post in paginator.posts %}
-      {% include post-card.liquid %}
-    {% endfor %}
-  </div>
+    <div class='o-grid'>
+        {% for post in paginator.posts %}
+        {% include post-card.liquid %}
+        {% endfor %}
+    </div>
 
-  <div class='o-grid'>
-    {% include pagination.html %}
-  </div>
+    <div class='o-grid'>
+        {% include pagination.html %}
+    </div>
 </div>
 
 
+{% for post in paginator.posts %}
+<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+<p class="author">
+    <span class="date">{{ post.date }}</span>
+</p>
+<div class="content">
+    {{ post.content }}
+</div>
+{% endfor %}
 
 <!--
 <div class='o-wrapper'>

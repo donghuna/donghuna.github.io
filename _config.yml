@@ -35,6 +35,7 @@ permalink: pretty
 # pagination이 필요하고 몇개의 post를 하나의 page에서
 # 보여줄 건지를 설정.
 paginate:  5
+paginate_path: "/blog/page:num/"
 
 sass:
   style: compressed
