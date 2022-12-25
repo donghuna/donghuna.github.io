@@ -28,6 +28,3 @@ layout: page
 ###### <center>Samsung Software Certification - Professional</center>
 ###### <center>Associate Architect</center>
 ###### <center>Best Code Reviewer</center>
-
-
-

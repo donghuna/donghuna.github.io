@@ -22,6 +22,7 @@ fieldset {
  * Consistent indentation for lists.
  */
 dd, ol, ul {
-  list-style-position: inside;
-  margin-left: $base-spacing-unit;
+  //list-style-position: inside;
+  list-style-position: initial;
+  //margin-left: $base-spacing-unit;
 }
