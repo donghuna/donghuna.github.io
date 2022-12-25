@@ -3,15 +3,15 @@
 \*------------------------------------*/
 
 body {
+  // 본문
   color: $color-text;
-  //color: $color-brand;
   //font-size: $font-size-base;
   font-size: $font-size-medium;
   font-family: $font-base;
   //line-height: $line-height-base;
   line-height: $line-height-medium;
 
-  margin-bottom: $line-height-tiny;
+  margin: 0px 0px 0px 0px;
 
   -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
