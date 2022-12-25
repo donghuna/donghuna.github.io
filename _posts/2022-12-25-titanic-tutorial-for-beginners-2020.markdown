@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "Titanic challenge1"
-categories: coding
+title:  Titanic challenge1
 tag: [python, blog, jekyll, xxx]
 image: '/images/posts/titanic.png'
 ---
