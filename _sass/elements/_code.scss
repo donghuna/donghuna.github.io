@@ -5,8 +5,7 @@
 pre,
 code {
   font-family: $font-monospace;
-  background-color: $bg-color-gray; // 글자 뒷 배경색
-  //background-color: $bg-color-dark;
+  //background-color: $bg-color-gray; // 글자 뒷 배경색
 }
 
 pre {
@@ -20,6 +19,11 @@ pre {
   white-space: pre-wrap;
   word-wrap: break-word;
   word-break: break-all;
+  background-color: $bg-color-gray; // 글자 뒷 배경색
+}
+
+code {
+  background-color: $bg-color-dark;
 }
 
 li code,
