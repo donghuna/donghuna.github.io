@@ -15,11 +15,13 @@ body {
    -moz-osx-font-smoothing: grayscale;
 }
 
+pre,
 code {
   color: $color-text;
   font-size: $font-size-medium;
   font-family: $font-base;
   line-height: $line-height-medium;
+  background-color: rgb(24, 126, 24);
 }
 
 *::selection {
