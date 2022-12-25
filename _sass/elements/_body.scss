@@ -6,12 +6,20 @@ body {
   color: $color-text;
   //color: $color-brand;
   //font-size: $font-size-base;
-  font-size: $font-size-small;
+  font-size: $font-size-medium;
   font-family: $font-base;
-  line-height: $line-height-base;
+  //line-height: $line-height-base;
+  line-height: $line-height-medium;
 
   -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  color: $color-text;
+  font-size: $font-size-medium;
+  font-family: $font-base;
+  line-height: $line-height-medium;
 }
 
 *::selection {
