@@ -15,12 +15,20 @@ layout: default
     </div>
 </div>
 
-
-{% for page in page.posts %}
-    {{ page.title }}
+a
+{% for post in site.posts %}
+    {{ post.title }}
 {% endfor %}
+c
+<ul>
+    {% for post in site.posts %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
 
-
+b
 {% for post in paginator.posts %}
 <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 <p class="author">
