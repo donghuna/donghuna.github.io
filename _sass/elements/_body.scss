@@ -15,7 +15,7 @@ body {
    -moz-osx-font-smoothing: grayscale;
 }
 
-p { margin: 3px 0px 3px 0px; line-height: 120%; }
+p { margin: 5px 0px 5px 0px; line-height: $line-height-medium; }
 
 *::selection {
   color: $color-white;
