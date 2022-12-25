@@ -11,11 +11,11 @@ body {
   //line-height: $line-height-base;
   line-height: $line-height-medium;
 
-  margin: 0px 0px 0px 0px;
-
   -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
 }
+
+p { margin: 3px 0px 3px 0px; line-height: 30%; }
 
 *::selection {
   color: $color-white;
