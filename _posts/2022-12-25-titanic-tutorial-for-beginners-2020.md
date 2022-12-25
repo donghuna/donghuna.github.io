@@ -1,8 +1,9 @@
 ---
-layout: single
-title:  "jupyter notebook 변환하기!"
+layout: post
+title:  "Titanic challenge"
 categories: coding
-tag: [python, blog, jekyll]
+tag: [python, blog, jekyll, xxx]
+image: '/images/posts/titanic.png'
 toc: true
 author_profile: false
 ---
