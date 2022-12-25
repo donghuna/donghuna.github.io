@@ -4,7 +4,7 @@
     <h3 class='c-post-card__title'>{{ post.title }}</h3>
 
     {% if post.image %}
-      <img src='{{ post.image | prepend: site.baseurl }}' class='c-post__image' alt='{{ post.title }}' />
+      <img src='{{ post.image | prepend: site.baseurl }}' class='c-post__image' alt='{{ post.title }}'>
     {% endif %}
 
     <p class='c-post-card__excerpt u-font-medium'>
