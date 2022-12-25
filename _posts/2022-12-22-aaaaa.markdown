@@ -2215,7 +2215,7 @@ missingno.matrix(data, figsize = (15,8))
 
 
     
-![png](output_45_1.png)
+![png](/images/posts/2022-12-22/output_45_1.png)
     
 
 
@@ -2644,7 +2644,7 @@ plt.show()
 
 
     
-![png](output_58_1.png)
+![png](/images/posts/2022-12-22/output_58_1.png)
     
 
 
