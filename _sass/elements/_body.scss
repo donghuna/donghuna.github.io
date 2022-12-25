@@ -9,7 +9,9 @@ body {
   font-size: $font-size-medium;
   font-family: $font-base;
   //line-height: $line-height-base;
-  line-height: $line-height-tiny;
+  line-height: $line-height-medium;
+
+  word-spacing: $line-height-tiny;
 
   -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;

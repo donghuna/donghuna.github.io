@@ -5,8 +5,8 @@
 pre,
 code {
   font-family: $font-monospace;
-  //background-color: $bg-color-gray;
-  background-color: $bg-color-dark;
+  background-color: $bg-color-gray; // 글자 뒷 배경색
+  //background-color: $bg-color-dark;
 }
 
 pre {
