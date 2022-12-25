@@ -1,17 +1,18 @@
+<!-- 하나의 게시글에 대해서 어떤식으로 표시할 것인지를 구성한다. -->
 <div class='o-grid__col'>
 
   <a href='{{ post.url | prepend: site.baseurl }}' class='c-post-card {% if forloop.first == true %} c-post-card--first {% endif %} {% if forloop.last == true %} c-post-card--last {% endif %}'>
     <h3 class='c-post-card__title'>{{ post.title }}</h3>
 
     {% if post.image %}
-      <img src='{{ post.image | prepend: site.baseurl }}' class='c-post__image' alt='{{ post.title }}'>
+      <img src='{{ post.image | prepend: site.baseurl }}' class='c-post__image' alt='{{ post.title }}'> <!--이미지가 있다면 표시 -->
     {% endif %}
 
     <p class='c-post-card__excerpt u-font-medium'>
-      {{ post.content | strip_html | truncatewords:35 }}
+      {{ post.content | strip_html | truncatewords:35 }} <!-- content 표시 및 35자 제한 -->
     </p>
 
-    <span class='c-post-card__date'>{{ post.date | date: '%d %b %Y' }}</span>
+    <span class='c-post-card__date'>{{ post.date | date: '%d %b %Y' }}</span> <!-- 날짜 표시 -->
   </a>
 
 </div>

@@ -4,8 +4,6 @@ title:  "Titanic challenge2"
 categories: coding
 tag: [python, blog, jekyll, xxx]
 image: '/images/posts/titanic.png'
-toc: true
-author_profile: false
 ---
 
 # Titanic Challenge
