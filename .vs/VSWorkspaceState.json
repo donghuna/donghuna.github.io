@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_includes",
-    "\\_layouts",
-    "\\_posts",
-    "\\_sass\\components",
-    "\\_sass\\elements",
-    "\\_sass\\generic",
+    "\\admin",
+    "\\images",
+    "\\images\\posts",
+    "\\js",
+    "\\_pages",
+    "\\_sass",
     "\\_sass\\objects",
     "\\_sass\\settings",
     "\\_sass\\tools"
   ],
-  "SelectedNode": "\\_posts\\2015-12-21-it-would-be-totally-painless-theyd-just-slip-into-unconsciousness-and-die.markdown",
+  "SelectedNode": "\\_sass\\components\\_post-card.scss",
   "PreviewInSolutionExplorer": false
 }
