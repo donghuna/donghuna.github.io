@@ -5,6 +5,7 @@
 .highlight {
   margin: 0;
   background: #fff;
+  font-size: $font-size-small;
 
   .highlighter-rouge & {
     background: #FAFAFA;
@@ -70,3 +71,13 @@
   .vi    { color: #008080 } // Name.Variable.Instance
   .il    { color: #099 } // Literal.Number.Integer.Long
 }
+/*
+pre,
+code {
+  color: $color-text;
+  font-size: $font-size-medium;
+  font-family: $font-base;
+  line-height: $line-height-medium;
+  background-color: rgb(24, 126, 24);
+}
+*/
