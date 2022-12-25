@@ -12,8 +12,10 @@ pre {
   overflow: auto;
   padding: double($base-spacing-unit);
   margin-bottom: $base-spacing-unit;
-  font-size: $font-size-medium;
-  line-height: $line-height-medium;
+  //font-size: $font-size-medium;
+  font-size: $font-size-small;
+  //line-height: $line-height-medium;
+  line-height: $line-height-small;
   white-space: pre-wrap;
   word-wrap: break-word;
   word-break: break-all;
