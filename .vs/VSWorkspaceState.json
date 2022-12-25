@@ -1,10 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\images",
-    "\\images\\pages",
-    "\\_pages"
+    "\\_includes",
+    "\\_layouts",
+    "\\_posts",
+    "\\_sass\\components",
+    "\\_sass\\elements",
+    "\\_sass\\generic",
+    "\\_sass\\objects",
+    "\\_sass\\settings",
+    "\\_sass\\tools"
   ],
-  "SelectedNode": "\\images\\pages\\donghuna_profile.jpeg",
+  "SelectedNode": "\\_posts\\2015-12-21-it-would-be-totally-painless-theyd-just-slip-into-unconsciousness-and-die.markdown",
   "PreviewInSolutionExplorer": false
 }
