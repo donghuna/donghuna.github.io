@@ -2,7 +2,7 @@
 layout: post
 title:  Test
 tag: [Machine Leaning, Deep Learning, Clustering, xxx]
-image: '/images/posts/titanic.png'
+image: '/images/posts/2023-03-29-k_means-clustering_tutorial/k_means-clustering_tutorial_17_0.png'
 ---
 
 # 비지도학습 실습 - k-means Clustering
@@ -424,7 +424,7 @@ plt.show()
     
 
 
-![png](/images/posts/2023-03-29-k_means%20clustering_tutorial/k_means%20clustering_tutorial_13_1.png)
+![png](/images/posts/2023-03-29-k_means-clustering_tutorial/k_means-clustering_tutorial_13_1.png)
 
 
 # 3. Model Building
@@ -459,7 +459,7 @@ plt.show()
 ```
 
 
-![png](/images/posts/2023-03-29-k_means%20clustering_tutorial/k_means%20clustering_tutorial_17_0.png)
+![png](/images/posts/2023-03-29-k_means-clustering_tutorial/k_means-clustering_tutorial_17_0.png)
 
 
 
@@ -491,7 +491,7 @@ plt.title('Elbow curve')
 
 
 
-![png](/images/posts/2023-03-29-k_means%20clustering_tutorial/k_means%20clustering_tutorial_19_1.png)
+![png](/images/posts/2023-03-29-k_means-clustering_tutorial/k_means-clustering_tutorial_19_1.png)
 
 
 
@@ -517,7 +517,7 @@ plt.title('silhouette_score')
 
 
 
-![png](/images/posts/2023-03-29-k_means%20clustering_tutorial/k_means%20clustering_tutorial_20_1.png)
+![png](/images/posts/2023-03-29-k_means-clustering_tutorial/k_means-clustering_tutorial_20_1.png)
 
 
 
@@ -572,7 +572,7 @@ plt.show()
 ```
 
 
-![png](/images/posts/2023-03-29-k_means%20clustering_tutorial/k_means%20clustering_tutorial_22_0.png)
+![png](/images/posts/2023-03-29-k_means-clustering_tutorial/k_means-clustering_tutorial_22_0.png)
 
 
 
@@ -603,7 +603,7 @@ plt.show()
 ```
 
 
-![png](/images/posts/2023-03-29-k_means%20clustering_tutorial/k_means%20clustering_tutorial_23_0.png)
+![png](/images/posts/2023-03-29-k_means-clustering_tutorial/k_means-clustering_tutorial_23_0.png)
 
 
 
@@ -629,7 +629,7 @@ plt.title('Elbow curve')
 
 
 
-![png](/images/posts/2023-03-29-k_means%20clustering_tutorial/k_means%20clustering_tutorial_24_1.png)
+![png](/images/posts/2023-03-29-k_means-clustering_tutorial/k_means-clustering_tutorial_24_1.png)
 
 
 
@@ -642,5 +642,5 @@ plt.show()
 ```
 
 
-![png](/images/posts/2023-03-29-k_means%20clustering_tutorial/k_means%20clustering_tutorial_25_0.png)
+![png](/images/posts/2023-03-29-k_means-clustering_tutorial/k_means-clustering_tutorial_25_0.png)
 
