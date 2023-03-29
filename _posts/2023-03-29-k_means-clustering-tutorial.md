@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Test
-tag: [Machine Leaning, Deep Learning, Clustering, xxx]
+title: K-means Clustering
+tag: [Machine Leaning, Deep Learning, Clustering, seaborn, xxx]
 image: '/images/posts/2023-03-29-k_means-clustering_tutorial/k_means-clustering_tutorial_17_0.png'
 ---
 
