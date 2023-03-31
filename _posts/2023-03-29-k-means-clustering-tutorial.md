@@ -1,7 +1,7 @@
 ---
 layout: post
 title: K-means Clustering
-tag: [Machine Leaning, Deep Learning, Clustering, seaborn, matplotlib, pandas, xxx]
+tag: [Machine Leaning, Deep Learning, Clustering, seaborn, matplotlib, pandas, kmeans, xxx]
 image: '/images/posts/2023-03-29-k_means-clustering_tutorial/k_means-clustering_tutorial_17_0.png'
 ---
 
