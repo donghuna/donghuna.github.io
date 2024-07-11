@@ -9,11 +9,13 @@ image: '/images/posts/2024-07-11-Dive-sequence-classification/Untitled.png'
 
 Playground : [https://donghuna.com/inference-endpoints/dive-sequence-classification.html](https://donghuna.com/inference-endpoints/dive-sequence-classification.html)
 
-Model : https://huggingface.co/donghuna/timesformer-base-finetuned-k400-diving48
+Model : [https://huggingface.co/donghuna/timesformer-base-finetuned-k400-diving48](https://huggingface.co/donghuna/timesformer-base-finetuned-k400-diving48)
 
-Endpoint : https://ui.endpoints.huggingface.co/donghuna/endpoints/timesformer-base-finetuned-k-wks
+Endpoint : [https://ui.endpoints.huggingface.co/donghuna/endpoints/timesformer-base-finetuned-k-wks](https://ui.endpoints.huggingface.co/donghuna/endpoints/timesformer-base-finetuned-k-wks)
 
-Github : https://github.com/donghuna/AI-Expert/blob/main/timesformer/TimeSformer-huggingface-example.ipynb
+Github : [https://github.com/donghuna/Dive-sequence-classification/blob/main/Training.ipynb](https://github.com/donghuna/Dive-sequence-classification/blob/main/Training.ipynb)
+
+
 
 Dataset : http://www.svcl.ucsd.edu/projects/resound/dataset.html
 
