@@ -1,6 +1,6 @@
 ---
 layout: post
-title: K-means Clustering
+title: Dive sequence classification
 tag: [Machine Leaning, Deep Learning, Clustering, seaborn, matplotlib, pandas, kmeans, xxx]
 image: '/images/posts/2024-07-11-Dive-sequence-classification/Untitled.png'
 ---
