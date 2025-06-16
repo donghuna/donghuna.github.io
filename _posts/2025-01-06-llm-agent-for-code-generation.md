@@ -2,7 +2,7 @@
 layout: post
 title: LLM agent for code generation
 tag: [Deep Learning, LLM, Agent, RAG, PEFT]
-image: '/images/posts/2024-07-11-Dive-sequence-classification/Untitled.png'
+image: '/images/posts/2025-01-06-llm-agent-for-code-generation/Coding_agent.png'
 ---
 
 # LLM agent for code generation
