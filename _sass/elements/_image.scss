@@ -5,5 +5,17 @@
 img {
   display: block;
   max-width: 100%;
+  height: auto;
+  margin: 0 auto;
   font-style: italic;
+}
+
+.c-post__image {
+  width: 100%;
+  height: auto;
+  margin: 0 auto $base-spacing-unit;
+  
+  @include mq($from: tablet) {
+    max-width: 740px;
+  }
 }

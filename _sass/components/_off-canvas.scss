@@ -2,7 +2,7 @@
   Components > Off Canvas
 \*------------------------------------*/
 
-$off-canvas-width: 300px;
+$off-canvas-width: 280px;
 
 .c-off-canvas-toggle {
   float: right;
@@ -65,10 +65,10 @@ $off-canvas-width: 300px;
 }
 
 // prevent horizontal scroll during off-canvas
-
 html,
 body {
   overflow-x: hidden;
+  width: 100%;
 }
 
 .c-off-canvas-content {
@@ -77,14 +77,17 @@ body {
   right: 0;
   width: $off-canvas-width;
   height: 100%;
-  padding: ($base-spacing-unit + half($base-spacing-unit)) double($base-spacing-unit);
+  padding: ($base-spacing-unit + half($base-spacing-unit)) $base-spacing-unit;
   background-color: $bg-color-white;
   transform: translate3d($off-canvas-width, 0, 0);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .c-off-canvas-container {
   transform: translate3d(0, 0, 0);
   transition: transform $global-transition cubic-bezier(.16, .68, .43, .99);
+  width: 100%;
 
   &.is-active {
     transform: translate3d(- $off-canvas-width, 0, 0);

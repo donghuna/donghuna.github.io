@@ -5,10 +5,18 @@
 .c-post {
   margin: 0 auto;
   max-width: 740px;
+  padding: 0 $base-spacing-unit;
+  width: 100%;
+
+  @include mq($from: tablet) {
+    padding: 0 double($base-spacing-unit);
+  }
 
   &__title {
     font-size: double($font-size-tiny);
     margin-bottom: $base-spacing-unit;
+    word-break: keep-all;
+    overflow-wrap: break-word;
 
     @include mq($from: tablet) {
       font-size: double($font-size-small);
@@ -40,5 +48,7 @@
 
   &__image {
     margin: 0 auto $base-spacing-unit;
+    width: 100%;
+    height: auto;
   }
 }
