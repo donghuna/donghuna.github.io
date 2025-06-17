@@ -2,12 +2,12 @@
   Elements > Typography
 \*------------------------------------*/
 
-$font-size-h1:  36px;
-$font-size-h2:  28px;
-$font-size-h3:  24px;
-$font-size-h4:  20px;
-$font-size-h5:  18px;
-$font-size-h6:  16px;
+$font-size-h1:  28px;
+$font-size-h2:  24px;
+$font-size-h3:  20px;
+$font-size-h4:  18px;
+$font-size-h5:  16px;
+$font-size-h6:  14px;
 
 h1,
 h2,
@@ -15,17 +15,23 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: inherit;
-  line-height: initial;
   font-weight: $font-weight-bold;
+  line-height: 1.4;
+  margin-top: double($base-spacing-unit);
+  margin-bottom: $base-spacing-unit;
+  color: $color-text;
 }
 
 h1 {
   font-size: $font-size-h1;
+  border-bottom: 1px solid $color-border;
+  padding-bottom: half($base-spacing-unit);
 }
 
 h2 {
   font-size: $font-size-h2;
+  border-bottom: 1px solid $color-border;
+  padding-bottom: quarter($base-spacing-unit);
 }
 
 h3 {
@@ -42,4 +48,5 @@ h5 {
 
 h6 {
   font-size: $font-size-h6;
+  color: $color-gray;
 }
