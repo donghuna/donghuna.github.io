@@ -5,12 +5,7 @@
 .c-post {
   margin: 0 auto;
   max-width: 740px;
-  padding: 0 $base-spacing-unit;
   width: 100%;
-
-  @include mq($from: tablet) {
-    padding: 0 double($base-spacing-unit);
-  }
 
   &__title {
     font-size: double($font-size-tiny);
