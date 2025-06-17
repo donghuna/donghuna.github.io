@@ -5,8 +5,6 @@ tag: [Machine Leaning, Deep Learning, Clustering, seaborn, matplotlib, pandas, k
 image: '/images/posts/2024-07-11-Dive-sequence-classification/Untitled.png'
 ---
 
-# Dive sequence classification
-
 Playground : [https://donghuna.com/inference-endpoints/dive-sequence-classification.html](https://donghuna.com/inference-endpoints/dive-sequence-classification.html)
 
 Model : [https://huggingface.co/donghuna/timesformer-base-finetuned-k400-diving48](https://huggingface.co/donghuna/timesformer-base-finetuned-k400-diving48)

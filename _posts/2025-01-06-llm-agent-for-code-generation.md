@@ -5,8 +5,6 @@ tag: [Deep Learning, LLM, Agent, RAG, PEFT]
 image: '/images/posts/2025-01-06-llm-agent-for-code-generation/Coding_agent.png'
 ---
 
-# LLM agent for code generation
-
 Model : [https://huggingface.co/donghuna/llama-plan-1B](https://huggingface.co/donghuna/llama-plan-1B)
 
 Dataset : [https://huggingface.co/datasets/donghuna/StaQC-plan](https://huggingface.co/datasets/donghuna/StaQC-plan)
