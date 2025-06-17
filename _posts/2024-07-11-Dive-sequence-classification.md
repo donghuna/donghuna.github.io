@@ -15,8 +15,6 @@ Endpoint : [https://ui.endpoints.huggingface.co/donghuna/endpoints/timesformer-b
 
 Github : [https://github.com/donghuna/Dive-sequence-classification/blob/main/Training.ipynb](https://github.com/donghuna/Dive-sequence-classification/blob/main/Training.ipynb)
 
-
-
 Dataset : http://www.svcl.ucsd.edu/projects/resound/dataset.html
 
 ## Introduction

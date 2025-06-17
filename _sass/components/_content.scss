@@ -3,12 +3,66 @@
 \*------------------------------------*/
 
 .c-content {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+
   a:not(.c-btn) {
     text-decoration: underline;
     text-decoration-skip: ink;
+    word-break: break-all;
+    overflow-wrap: break-word;
 
     @include attention() {
       color: $color-brand;
+    }
+  }
+
+  p, li, td, th {
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  pre, code {
+    word-break: normal;
+    overflow-wrap: normal;
+  }
+
+  // Table styles
+  table {
+    width: 100%;
+    margin-bottom: $base-spacing-unit;
+    border-collapse: collapse;
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    
+    @include mq($from: tablet) {
+      display: table;
+      overflow-x: visible;
+    }
+  }
+
+  th, td {
+    padding: half($base-spacing-unit);
+    border: 1px solid $color-border;
+    text-align: left;
+    min-width: 120px; // 최소 너비 설정
+    
+    @include mq($from: tablet) {
+      min-width: auto;
+    }
+  }
+
+  th {
+    background-color: $bg-color-gray;
+    font-weight: $font-weight-bold;
+  }
+
+  tr {
+    &:nth-child(even) {
+      background-color: $bg-color-gray;
     }
   }
 }
