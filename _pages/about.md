@@ -13,7 +13,7 @@ layout: page
 
 ###### <center>Samsung Electronics Visual Display (2013 - 2017)</center>
 ###### <center>Samsung Advanced Institute of Technology (2017 - 2021)</center>
-###### <center>Samsung Electronics Innovation Center (2021 - Current)</center>
+###### <center>Samsung Electronics AI Center (2021 - Current)</center>
 
 ---
 
@@ -24,7 +24,9 @@ layout: page
 ###### <center>Audio product Front Micom & SCM (2013 - 2017)</center>
 ###### <center>Fingerprint Recognition Algorithm (2017 - 2020)</center>
 ###### <center>Face Recognition Deep Learning (2020 - 2021)</center>
-###### <center>Software Engineering (2021 - Current)</center>
+###### <center>Software Engineering (2021 - 2023)</center>
+###### <center>Coding assistant, AI agent (2024 - current)</center>
 ###### <center>Samsung Software Certification - Professional</center>
 ###### <center>Associate Architect</center>
 ###### <center>Best Code Reviewer</center>
+###### <center>AI Expert</center>
